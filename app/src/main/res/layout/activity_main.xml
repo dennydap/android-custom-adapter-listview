@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context="com.dennypradipta.mainair.MainActivity">
+
+    <TextView
+        android:id="@+id/judulProgram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Main Air"
+        android:textSize="64dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/judulProgram"
+        android:textSize="16dp"
+        android:text="Denny Aditya P\n52414708\n3IA01"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/watersplash"
+        android:layout_below="@id/about"
+        android:scaleType="fitXY"/>
+
+</RelativeLayout>
